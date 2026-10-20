@@ -29,7 +29,11 @@ External Source Authority ist davon unabhängig: `OFFICIAL_SPEC` > `OFFICIAL_DOC
 
 Es werden bewusst **keine LLM-Provider-Dokumentationen** als `P0`/`P1` geführt. README und Canon sagen ausdrücklich, dass ein externer LLM-Pfad für Live-Nutzer nicht freigegeben ist und der lokale Harness keinen Provider-/Pilot-Scope etabliert.
 
-Ein Provider, Deployment-System oder weiterer Runtime-Dienst darf erst als `P2` aufgenommen und später hochgestuft werden, wenn ein konkreter lokaler Issue-/Canon-Pfad seinen Zweck und seine Grenzen dokumentiert.
+| Kategorie | Name | Priorität | Source type | Authority | Zweck | Repo-Signal / Parkgrund | Wann nutzen | Canonical URL / identity |
+|---|---|---|---|---|---|---|---|---|
+| Hosting/Pilot-Evidence | Hetzner Cloud | `P2` | `official_docs` | `OFFICIAL_DOCS` | Offizielle Hosting-/Standort-/Backup-/Datenschutz-Referenz für den dokumentierten Hetzner-Evidence- und möglichen Pilotpfad. | `knowledge/CURRENT_STATUS.md` dokumentiert den Hetzner-Evidence-Pfad; `knowledge/project/PROVIDER_DPA_INPUT_MATRIX.md` enthält die konkrete Provider-/DPA-Prüfung. Pilot-/Live-Freigabe bleibt separat blockiert. | Nur bei Hetzner-Evidence, DPA, Hosting- oder ausdrücklich aktiviertem Pilot-Vorbereitungsscope. | https://docs.hetzner.com/cloud/general/locations |
+
+Ein weiterer Provider, Deployment-Dienst oder Runtime-Pfad darf erst als `P2` aufgenommen und später hochgestuft werden, wenn ein konkreter lokaler Issue-/Canon-Pfad seinen Zweck und seine Grenzen dokumentiert.
 
 ## Pflege-Regeln
 
