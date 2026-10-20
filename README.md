@@ -104,6 +104,7 @@ Das Repository bleibt governance- und evidence-first, enthält inzwischen aber n
 | [PRIVACY_BY_DESIGN](knowledge/project/PRIVACY_BY_DESIGN.md) | Datensparsamkeit, Retention, Löschung |
 | [ARCHITECTURE_OVERVIEW](knowledge/architecture/ARCHITECTURE_OVERVIEW.md) | MVP-Architektur-Canon |
 | [CURRENT_STATUS](knowledge/CURRENT_STATUS.md) | Aktueller Projektstand |
+| [EXTERNAL_REFERENCES](docs/external-docs/index.md) | Externe technische Referenzen; keine Erweiterung von Provider-, Pilot- oder Produkt-Scope |
 
 ---
 
